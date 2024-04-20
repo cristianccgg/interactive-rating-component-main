@@ -23,14 +23,6 @@
   --Font-size: 15px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 main {
   background-color: black;
   height: 100vh;
@@ -142,5 +134,13 @@ main {
 
 .orange {
   background-color: var(--Orange);
+  color: white;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center;
   color: white;
 }
